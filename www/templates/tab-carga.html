@@ -1,0 +1,18 @@
+<ion-view view-title="Cargar crédito">
+  <ion-content class="padding">
+    <div class="list">
+
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" placeholder="Ingrese código de seguridad" maxlength="16" ng-model="carga.token">
+        </label>
+        <button class="button button-small" ng-click="IngresarToken()">
+          Enviar
+        </button>
+      </div>
+      <div class="nota">
+        El código de seguridad es el código que aparece detrás de su tarjeta, el cual tiene 16 caracteres alfanuméricos.
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
